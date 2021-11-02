@@ -1,6 +1,6 @@
 {
     "name": "onsenui-v2-todo",
-    "version": "2.4.1",
+    "version": "2.5.0",
     "displayName": "OnsenUI TODO App",
     "cordova": {
         "plugins": {
@@ -13,7 +13,7 @@
     "dependencies": {
         "cordova-plugin-camera": "5.0.1",
         "cordova-plugin-splashscreen": "6.0.0",
-        "cordova-plugin-whitelist": "1.3.4",
+        "cordova-plugin-whitelist": "1.3.5",
         "monaca-plugin-monaca-core": "3.3.1"
     },
     "scripts": {
