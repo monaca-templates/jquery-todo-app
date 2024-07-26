@@ -1,6 +1,6 @@
 {
   "name": "jquery-todo-app",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "displayName": "jQuery TODO App",
   "engines": {
     "node": ">=18.16"
