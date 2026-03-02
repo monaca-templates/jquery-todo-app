@@ -13,7 +13,10 @@ function addTodo(camera_url) {
     var body = $("#todo-body").val();
     var img_tag = "";
     if (camera_url) {
-        img_tag = "<img src='data:image/jpeg;base64," + camera_url + "'>";
+        const src = /^\s*data:/i.test(camera_url)
+        ? camera_url
+        : `data:image/jpeg;base64,${camera_url}`;
+        img_tag = "<img src='" + src + "'>";
     }
     $.mobile.changePage($("#list-page"));
     $("#todo-list").append("<li>" + img_tag + "<h3>" + title + "</h3><p>" + body + "</p></li>")
